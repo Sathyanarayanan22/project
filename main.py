@@ -1,3 +1,8 @@
+import hashlib
+
+# Dictionary to store user data and posts
+users = {}
+posts = []
 def main():
     while True:
         print("\nMenu:")
