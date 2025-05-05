@@ -1,3 +1,8 @@
+import hashlib
+
+# Dictionary to store user data and posts
+users = {}
+posts = []
 def hash_password(password):
     return hashlib.sha256(password.encode()).hexdigest()
 
